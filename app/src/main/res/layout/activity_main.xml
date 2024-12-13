@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="#121212">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido al Restaurante"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnEntradas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entradas"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#1E88E5"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnPlatosPrincipales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Platos Principales"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnBebidas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bebidas"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#0288D1"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnPostres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Postres"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnViewCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Carrito"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
